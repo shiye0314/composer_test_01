@@ -1,0 +1,25 @@
+{
+    "name": "huizi/composer_test_01",
+    "description": "这是一个测试包",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huizi",
+            "email": "990446010@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "doctrine/dbal" : "2.4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "GeekGhc\\LaraFlash": "src/"
+        },
+        "files": [
+            "src/GeekGhc/LaraFlash/function.php"
+        ]
+    }
+}
